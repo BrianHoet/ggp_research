@@ -12,6 +12,7 @@ Jump Point Search (JPS) is a pathfinding algorithm that is used to efficiently f
 The JPS algorithm works by reducing the number of nodes that need to be expanded in the search space. It does this by taking advantage of the grid-based structure of the map and using a set of predetermined "jump points" to guide the search. A jump point is a node that is guaranteed to be on the shortest path, and it is found by analyzing the surrounding grid cells for specific patterns.
 
 *Design Implementation II
+(Didn't do this)
 The JPS algorithm starts by adding the starting point to the open list and proceeds to iterate through the open list. At each iteration, it identifies the jump points that are in the vicinity~ of the current node and adds them to the open list. The algorithm then chooses the node with the lowest cost and moves it to the closed list. This process is repeated until the goal node is added to the closed list or the open list is empty, indicating that no path to the goal exists.
 
 *Result III
