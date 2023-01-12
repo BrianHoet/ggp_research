@@ -13,7 +13,7 @@ The JPS algorithm starts by adding the starting point to the open list and proce
 
 *Result III
 
-*ConClusion IV
+*ConClusion IV 
 The JPS algorithm is more efficient than the traditional A* algorithm because it reduces the number of nodes that need to be expanded. It does this by only expanding nodes that are guaranteed to be on the shortest path, and by avoiding nodes that are unlikely to be on the path. This results in a significant reduction in the search space and leads to faster computation times.
 
 ~Vicinity: the area near or surrounding a particular place.
