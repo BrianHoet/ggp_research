@@ -4,8 +4,7 @@
 
 ->Astar
 The A* (A-star) algorithm is a widely used pathfinding algorithm in computer science and operations research. It is an informed search algorithm, meaning it uses
-information about the problem domain to guide its search and improve its efficiency. The algorithm is commonly used in navigation, robotics
-and video games to determine the shortest path from a starting point to a goal.
+information about the problem domain to guide its search and improve its efficiency.
 
 ->Jump Point Search
 Jump Point Search (JPS) is a pathfinding algorithm that is used to efficiently find the shortest path between two points in a grid-based environment.
@@ -19,4 +18,4 @@ it identifies the jump points that are near the current node and adds them to th
 *Result III
 
 *ConClusion IV 
-
+JPS algorithm is more efficient than the A-star algorithm because it reduces the number of nodes that need to be expanded and it only searches the cells that are jump points.
